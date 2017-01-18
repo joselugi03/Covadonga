@@ -1,0 +1,101 @@
+/*Hoja de estilos para Covadonga.html y lagosCovadonga.html*/
+
+*{ margin=0 padding=0 }
+/* color de fondo FFEBB2
+color letra 403B2D
+color fondo hBFB186 */
+
+
+body
+{
+
+    background-color: #FFEBB2;
+    color: #403B2D;
+    font-family: serif;
+    font-style: oblique;
+    font-family: "Lucida Handwriting";
+
+
+
+}
+
+
+
+
+
+h1{
+    background-color: #BFB186;
+    color: #403B2D;
+    text-align:  center;
+    font-size: 60px;
+    font: ;
+}
+
+h2
+{
+    background-color: #BFB186;
+}
+table
+{
+    border-style: solid;
+    border-width: 10px 5px 10px 5px;
+    border-color: #BFB186;
+    border-collapse: separate;
+    border-spacing:10px 10px;
+    margin: 10 px;
+    background: #3F3B2D;
+}
+caption
+{
+    text-align: left;
+}
+th,td
+{
+    border: 5px solid #BFB186;
+    padding: 20px;
+
+}
+th                          
+{
+    text-align: left;
+    background: #CCBD8F;
+}
+td
+{
+    background:#FFEBB2;
+    text-align: justify;
+}
+p{text-align: justify;}
+
+.centrarspan
+{
+    display:block;
+    text-align: center;
+}
+img
+{
+    display:block;
+    margin:auto;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+strong.class {font-size: 12px;}
