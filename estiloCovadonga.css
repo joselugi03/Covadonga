@@ -1,28 +1,80 @@
 /*Hoja de estilos para Covadonga.html y lagosCovadonga.html*/
 
-*{ margin=0 padding=0 }
+*{
+    margin=0;
+    padding=0;
+}
 /* color de fondo FFEBB2
 color letra 403B2D
 color fondo hBFB186 */
+body{
+    background-image: url(imagenes/covadonga.jpg);
+    background-repeat: repeat;
+}
 
-
-body
+#principal
 {
-
-    background-color: #FFEBB2;
+    
     color: #403B2D;
     font-family: serif;
     font-style: oblique;
     font-family: "Lucida Handwriting";
-
-
+    width: 1024px;
+    margin:0px auto;
 
 }
-
-
-
-
-
+#encabezado
+{
+    float:left;
+    width:100%;
+}
+#indice
+{
+    background: #CCBD8F;
+    float: left;
+    width: 24%;
+    height: 1642px;
+}
+#indice h2
+{
+    text-align: center;
+}
+#precuerpo
+{
+    background: #FFEBB2;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#cuerpo
+{
+    background: #FFEBB2;
+    float:right;
+    width: 75%;
+    margin-left: 2px;
+}
+#cuerpoLA
+{
+    background: #FFEBB2;
+    float:right;
+    width: 48%;
+    margin-left: 2px;
+}
+#indiceLA
+{
+    background: #CCBD8F;
+    float: left;
+    width: 48%;
+    height: 80%;
+    margin-right: "2"
+}
+#pie
+{
+    text-align: center;
+    color:white;
+    width: 100%;
+    float: right;
+    height: 50px;
+}
 h1{
     background-color: #BFB186;
     color: #403B2D;
@@ -38,12 +90,16 @@ h2
 table
 {
     border-style: solid;
-    border-width: 10px 5px 10px 5px;
+    border-width: 5px 2px 5px 2px;
     border-color: #BFB186;
     border-collapse: separate;
-    border-spacing:10px 10px;
-    margin: 10 px;
+    border-spacing:2px 2px;
+    margin: 2 px;
     background: #3F3B2D;
+    font-size: 13px;
+}
+SinEstilo{
+    
 }
 caption
 {
@@ -52,7 +108,7 @@ caption
 th,td
 {
     border: 5px solid #BFB186;
-    padding: 20px;
+    padding: 5px;
 
 }
 th                          
@@ -74,8 +130,12 @@ p{text-align: justify;}
 }
 img
 {
-    display:block;
+    float:inherit;
     margin:auto;
+}
+li{
+    text-align: left;
+}
 }
 a:link {
     color: black;
@@ -99,3 +159,25 @@ a:active {
 }
 
 strong.class {font-size: 12px;}
+#capitalLetter
+{
+   float:left;
+   color:black;
+   background:#FFEBB2;
+   border:1px solid #999999;
+   font-size:80px;
+   line-height:60px;
+   padding:2px;
+   font-family:times;
+   margin-right: 5px;
+   font-style:italic;
+}
+textarea{
+    background: #FFEBB2;
+}
+select{
+    background: #FFEBB2;
+}
+input{
+    background: #FFEBB2;
+}

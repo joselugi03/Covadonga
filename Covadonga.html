@@ -7,130 +7,201 @@
         <title>Real Sitio de Covadonga</title>
     </head>
     <body>
-        <h1 id="inicio">Covadonga</h1>
+    <center>
+        <div id="principal">
+            <div id="encabezado">
+                <h1 >Covadonga</h1>
+            </div><br/>
+            <div id="precuerpo">
+               <p><strong><strong>Covadonga</strong></strong> (cooficialmente, en asturiano, Cuadonga) es una parroquia del concejo de <a href="https://es.wikipedia.org/wiki/Cangas_de_Onís" title="Wikipedia" target="_blank">Cangas de Onís</a> en el <a href="https://es.wikipedia.org/wiki/Asturias" title="wikipedia" target="_blank">Principado de Asturias</a>, España, así como la única población, con la categoría de lugar, de dicha parroquia.</p>
 
-        <p><strong><strong>Covadonga</strong></strong> (cooficialmente, en asturiano, Cuadonga) es una parroquia del concejo de <a href="https://es.wikipedia.org/wiki/Cangas_de_Onís" title="Wikipedia" target="_blank">Cangas de Onís</a> en el <a href="https://es.wikipedia.org/wiki/Asturias" title="wikipedia" target="_blank">Principado de Asturias</a>, España, así como la única población, con la categoría de lugar, de dicha parroquia.</p>
+                <p>La parroquia incluye el <strong>Real Sitio de <strong>Covadonga</strong></strong>, con su <strong>Santuario</strong>, y forma parte del Parque Nacional de los Picos de Europa, y en sus 2,54 km² habitan un total de 58 personas.</p>
 
-        <p>La parroquia incluye el <strong>Real Sitio de <strong>Covadonga</strong></strong>, con su <strong>Santuario</strong>, y forma parte del Parque Nacional de los Picos de Europa, y en sus 2,54 km² habitan un total de 58 personas.</p>
+                <div><img src="imagenes/Vigendecovadnonga2.JPG" title="Virgen de Covadonga" alt="Virgen de Covadonga"></div>
 
-        <div><img src="imagenes/Vigendecovadnonga2.JPG" title="Virgen de Covadonga" alt="Virgen de Covadonga"></div>
-
-        <p>El lugar de <strong>Covadonga</strong> está a una altitud media de 257 metros sobre el nivel del mar, en la falda del monte Auseva, y dista unos 11 kilómetros de Cangas de Onís.</p>
-
-        <h2>Índice</h2>
-        <ol>
-            <li><a href="#Etimologia">Etimología</a></li>
-            <li><a href="#Conjunto">Conjunto Monumental del Santuario</a>
+                <p>El lugar de <strong>Covadonga</strong> está a una altitud media de 257 metros sobre el nivel del mar, en la falda del monte Auseva, y dista unos 11 kilómetros de Cangas de Onís.</p> 
+            </div>
+            <div id="indice"> <h2>Índice</h2>
                 <ol>
-                    <li><a href="#cueva">La Santa Cueva</a></li>
-                    <li><a href="#monasterio">Monasterio de San Pedro</a></li>
-                    <li><a href="#basilica">Basílica de Santa María la Real de Covadonga</a></li>
-                    <li><a href="#explanada">Explanada</a></li>
+                    <li><a href="#Etimologia">Etimología</a></li>
+                    <li><a href="#Conjunto">Conjunto Monumental del Santuario</a>
+                        <ol>
+                            <li><a href="#cueva">La Santa Cueva</a></li>
+                            <li><a href="#monasterio">Monasterio de San Pedro</a></li>
+                            <li><a href="#basilica">Basílica de Santa María la Real de Covadonga</a></li>
+                            <li><a href="#explanada">Explanada</a></li>
+                        </ol>
+                    </li>    
+                    <li><a href="#reyes">Reyes enterrados en Covadonga</a></li>
+                    <li><a href="#entorno">Entorno natural</a></li>
+
                 </ol>
-            </li>    
-            <li><a href="#reyes">Reyes enterrados en Covadonga</a></li>
-            <li><a href="#entorno">Entorno natural</a></li>
+                <br/><br/>
+                <br/><br/> 
+                <br/><br/>
+                <br/><br/>
+                <br/><br/>
+                <br/><br/>
+                <br/>
+                
+                
+                <form action="covadonga.php" method="post">
+                <fieldset>
+                    <legend>Danos tu opinión</legend><br/><br/>
+                        <p><label for="edad">Edad:</label>
+                        <input type="text" name="edad" id="edad" size="3" maxlength="3"></p><br/>
+                        <p><label for="valoracion">Valoracion de la web:</label></p>
+                        <p><select id="valoracion" name="valoracion" size="1" size="3">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected>10</option>
+                            
+                        </select></p>
+                        <br/><br/>
+                        <table>
+                            <tr>    
+                                <td colspan=2>Sexo:</td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="radio" name="sexo" value="hombre">Hombre</label></td>
+                                <td><label><input type="radio" name="sexo" value="mujer">Mujer &lt; </label></td>
+                            </tr>
+                        </table>
+                        <br/><br/>
+                        <p>Te gustarían más</p>
+                        <table>
+                        <tr>
+                            <td><label><input type="checkbox" name="gustos[]" value="imagenes"  >Imagenes</label></td>
+                            <td><label><input type="checkbox" name="gustos[]" value="referencias">Referencias</label></td>
+                    
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="gustos[]" value="otrosColores" >Otros colores</label></td>
+                            <td><label><input type="checkbox" name="gustos[]" value="historias" >Historias</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="gustos[]" value="otro concepto" >Otro concepto</label></td>
+                            <td><label><input type="checkbox" name="gustos[]" value="noVolver" >No Volver</label></td>
+                        </tr>
+                        </table><br/>
+                        <textarea name="message" rows="15" cols="26"  placeholder="Escriba aqui sus observacones"></textarea><br><br/>
+                        <input type="submit" value="Enviar"> 
+                        <input type="reset" value="Borrar" >
+                </fieldset>
+                </form>      
+            </div>
+            
+            <div id="cuerpo">
 
-        </ol>
+
+            <h2 id="Etimologia">Etimología</h2>
+
+            <p>Existen dos etimologías propuestas, para el topónimo <strong>Covadonga</strong>, una que le hace derivar del <em>céltico</em> y otra del <em>latín</em>. De acuerdo al origen celta, <strong>Covadonga</strong> viene de <em>Cova d'onnica</em>, con el significado de "la fuente de la cueva"; con el derivado <em>*onnika</em> "fuente", del céltico <em>*onna</em> "río", que se puede encontrar en hidrónimos como Güeña y Oña (&lt; *onna), Isongu (&lt; *Isonniko) "fuente del río Is", <strong>TRioungu</strong> (&lt; *Trionniko) "tres fuentes", <strong>Candongu</strong> (&lt; *Kandonniko) "fuente clara", etc. En cuanto a la segunda propuesta, la de su origen en la lengua latina, significaría "Cueva de la Señora" (&lt; Cova Dominica), haciendo alusión al lugar consagrado a la Virgen de ; sin embargo, de acuerdo a la evolución de la lengua asturiana, la evolución de <em>Cova Dominica</em>, habría dado el resultado de *Covadominga.</p>
+
+            <div><a href="#encabezado">Volver al inicio</a></div>
+
+            <h2 id="Conjunto">Conjunto Monumental del Santuario</h2>
+            <table style="5">
+                <caption ><span style="color:#596BB2;font-size:12px">El Real Sitio de Covadonga posee el conjunto monumental más visitado de Asturias. Es un santuario dedicado a la Virgen de Covadonga (La Santina), conmemorativo de la Batalla de Covadonga.</span></caption>
+
+                <tr>
+                    <th id="cueva" scope="row">La Santa Cueva.</th>
+
+                    <td>El elemento central del Santuario es la Santa Cueva, donde se encuentra la Capilla-Sagrario con la imagen de la Virgen de Covadonga y la tumba de Don Pelayo. Según la tradición, en este lugar se habrían refugiado don Pelayo y sus hombres durante la Batalla de Covadonga.</td>
+
+                    <td><img src="imagenes/Santa_Cueva_de_Covadonga.jpg" onmouseover="this.width=260;this.height=195;" onmouseout="this.width=87;this.height=65;" title="La Santa Cueva" alt="La Santa Cueva" width="87" height="65" ></td>
+                </tr>
+
+                <tr>
+                    <th id="monasterio" scope="row">Monasterio de San Pedro</th>
+
+                    <td>Junto a la Santa Cueva se erige el Monasterio de San Pedro, habitado por una comunidad de canónigos. El edificio incluye una casa de ejercicios espirituales.</td>
+
+                    <td><img src="imagenes/Monasterio_de_San_Pedro.jpg" onmouseover="this.width=260;this.height=195;" onmouseout="this.width=87;this.height=65;" title="Monasterio de San Pedro"alt="Monasterio"  width="87" height="65"></td>
+                </tr>
+
+                <tr>
+                    <th id="basilica" scope="row">Basílica de Santa María la Real de Covadonga</th>
+
+                    <td>Cerca de la Santa Cueva y el conjunto monacal se alza la Basílica de Santa María la Real de Covadonga. Ideada por Roberto Frassinelli y levantada entre 1877 y 1901 por el arquitecto Federico Aparici y Soriano, de estilo neorrománico construida íntegramente en piedra caliza rosa.</td>
+
+                    <td><img src="imagenes/250px-CovadongaCathedral2.jpg" onmouseover="this.width=260;this.height=195;" onmouseout="this.width=87;this.height=65;" title="Basílica de Santa María la Real de Covadonga" alt="Basílica"  width="87" height="65"></td>
+                </tr>
+
+                <tr>
+                    <th id="explanada" scope="row">Explanada</th>
 
 
+                    <td>
+                        <p>Además, en la explanada de la Basílica se encuentran:</p>
 
-        <h2 id="Etimologia">Etimología</h2>
+                        <ul>
 
-        <p>Existen dos etimologías propuestas, para el topónimo <strong>Covadonga</strong>, una que le hace derivar del <em>céltico</em> y otra del <em>latín</em>. De acuerdo al origen celta, <strong>Covadonga</strong> viene de <em>Cova d'onnica</em>, con el significado de "la fuente de la cueva"; con el derivado <em>*onnika</em> "fuente", del céltico <em>*onna</em> "río", que se puede encontrar en hidrónimos como Güeña y Oña (&lt; *onna), Isongu (&lt; *Isonniko) "fuente del río Is", <strong>TRioungu</strong> (&lt; *Trionniko) "tres fuentes", <strong>Candongu</strong> (&lt; *Kandonniko) "fuente clara", etc. En cuanto a la segunda propuesta, la de su origen en la lengua latina, significaría "Cueva de la Señora" (&lt; Cova Dominica), haciendo alusión al lugar consagrado a la Virgen de ; sin embargo, de acuerdo a la evolución de la lengua asturiana, la evolución de <em>Cova Dominica</em>, habría dado el resultado de *Covadominga.</p>
+                            <li>La <strong>Casa Capitular</strong> del Monasterio de San Pedro, que consta de la Sala Capitular, una biblioteca y un salón de recepciones.</li>
 
-        <div><a href="#inicio">Volver al inicio</a></div>
+                            <li>El <strong>Museo</strong> del Real Sitio de Covadonga.</li>
 
-        <h2 id="Conjunto">Conjunto Monumental del Santuario</h2>
-        <table style="5">
-            <caption ><span style="color:#596BB2;font-size:12px">El Real Sitio de Covadonga posee el conjunto monumental más visitado de Asturias. Es un santuario dedicado a la Virgen de Covadonga (La Santina), conmemorativo de la Batalla de Covadonga.</span></caption>
+                            <li>La <strong>estatua de don Pelayo</strong>, hecha en bronce por el escultor Eduardo Zaragoza en 1964.</li>
+                            
+                            <li>La <strong>Campanona</strong>, campana de tres metros de altura y 4.000 kilos de peso construida en 1900 en La Felguera cuyo escultor fue el italiano Sortini, donada por el Conde Sizzo-Norris y Luis Gómez Herrero. Ganadora del primer premio de la Expo de París.</li>
 
-            <tr>
-                <th id="cueva" scope="row">La Santa Cueva.</th>
-
-                <td>El elemento central del Santuario es la Santa Cueva, donde se encuentra la Capilla-Sagrario con la imagen de la Virgen de Covadonga y la tumba de Don Pelayo. Según la tradición, en este lugar se habrían refugiado don Pelayo y sus hombres durante la Batalla de Covadonga.</td>
-
-                <td><img src="imagenes/Santa_Cueva_de_Covadonga.jpg" title="La Santa Cueva" alt="La Santa Cueva"></td>
-            </tr>
-
-            <tr>
-                <th id="monasterio" scope="row">Monasterio de San Pedro</th>
-
-                <td>Junto a la Santa Cueva se erige el Monasterio de San Pedro, habitado por una comunidad de canónigos. El edificio incluye una casa de ejercicios espirituales.</td>
-
-                <td><img src="imagenes/Monasterio_de_San_Pedro.jpg" title="Monasterio de San Pedro"alt="Monasterio"></td>
-            </tr>
-
-            <tr>
-                <th id="basilica" scope="row">Basílica de Santa María la Real de Covadonga</th>
-
-                <td>Cerca de la Santa Cueva y el conjunto monacal se alza la Basílica de Santa María la Real de Covadonga. Ideada por Roberto Frassinelli y levantada entre 1877 y 1901 por el arquitecto Federico Aparici y Soriano, de estilo neorrománico construida íntegramente en piedra caliza rosa.</td>
-
-                <td><img src="imagenes/250px-CovadongaCathedral2.jpg" title="Basílica de Santa María la Real de Covadonga" alt="Basílica"></td>
-            </tr>
-
-            <tr>
-                <th id="explanada" scope="row">Explanada</th>
+                            <li>El <strong>obelisco</strong> con la réplica de la Cruz de la Victoria de 1857, levantado por los duques de Montpensier en el lugar llamado «El Repelao», donde la tradición dice que don Pelayo fue coronado rey.</li>
 
 
-                <td>
-                    <p>Además, en la explanada de la Basílica se encuentran:</p>
+                        </ul>
+                    </td>
 
-                    <ul>
+                    <td><img src="imagenes/Casa_Capitular_(Covadonga).jpg"onmouseover="this.width=260;this.height=195;" onmouseout="this.width=87;this.height=65;" title="La Casa Capitular del Monasterio de San Pedro"  width="87" height="65"    alt="Casa Capitular" ></td>
+                </tr>
 
-                        <li>La <strong>Casa Capitular</strong> del Monasterio de San Pedro, que consta de la Sala Capitular, una biblioteca y un salón de recepciones.</li>
+            </table>
+            <div><a href="#encabezado">Volver al inicio</a></div>
 
-                        <li>El <strong>Museo</strong> del Real Sitio de Covadonga.</li>
+            <h2 id="reyes">Reyes enterrados en Covadonga</h2>
 
-                        <li>La <strong>estatua de don Pelayo</strong>, hecha en bronce por el escultor Eduardo Zaragoza en 1964.</li>
+            <p>En la Santa Cueva se hallan los sepulcros de los reyes de Asturias:</p>  
 
-                        <li>La <strong>Campanona</strong>, campana de tres metros de altura y 4.000 kilos de peso construida en 1900 en La Felguera cuyo escultor fue el italiano Sortini, donada por el Conde Sizzo-Norris y Luis Gómez Herrero. Ganadora del primer premio de la Expo de París.</li>
-
-                        <li>El <strong>obelisco</strong> con la réplica de la Cruz de la Victoria de 1857, levantado por los duques de Montpensier en el lugar llamado «El Repelao», donde la tradición dice que don Pelayo fue coronado rey.</li>
-
-
-                    </ul>
-                </td>
-
-                <td><img src="imagenes/Casa_Capitular_(Covadonga).jpg" title="La Casa Capitular del Monasterio de San Pedro" 
-                         alt="Casa Capitular"></td>
-            </tr>
-
-        </table>
-        <div><a href="#inicio">Volver al inicio</a></div>
-
-        <h2 id="reyes">Reyes enterrados en Covadonga</h2>
-
-        <p>En la Santa Cueva se hallan los sepulcros de los reyes de Asturias:</p>  
-
-        <ul>
+            <ul>
             <li>Don Pelayo</li>
             <li>Alfonso I, el Católico.</li>
 
-        </ul>
+            </ul>
 
-        <div><a href="#inicio">Volver al inicio</a></div>
-
-
-        <h2 id="entorno">Entorno natural</h2>
-
-        <p>El 22 de julio de 1918, con motivo del 12º centenario de la batalla de Covadonga, se crea el Parque nacional de la Montaña de Covadonga, primer Parque nacional de España, que con su ampliación al resto de los Picos de Europa en 1995 pasaría a llamarse Parque nacional de los Picos de Europa.</p>
-
-        <p>En esta área se encuentra el Macizo Occidental de los Picos de Europa, el macizo más extenso, siendo Peña Santa con 2.596 metros la mayor altitud. En este macizo se sitúan <a href="lagosCovadonga.html" title="Los lagos de Covadonga">los lagos de Covadonga</a>, nombre que se le da al conjunto del lago Enol y el lago Ercina.</p>
-
-        <div><a href="#inicio">Volver al inicio</a></div>
-        <p>
-            <a href="http://validator.w3.org/check?uri=referer">
-                <img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88">
-            </a>
-        </p>
-
-        <p><strong>Página realizada por: José Lozano</strong> para el módulo <strong class="class">Lenguaje de Marcas</strong></p>
+            <div><a href="#encabezado">Volver al inicio</a></div>
 
 
+            <h2 id="entorno">Entorno natural</h2>
+
+            <p>El 22 de julio de 1918, con motivo del 12º centenario de la batalla de Covadonga, se crea el Parque nacional de la Montaña de Covadonga, primer Parque nacional de España, que con su ampliación al resto de los Picos de Europa en 1995 pasaría a llamarse Parque nacional de los Picos de Europa.</p>
+
+                <p>En esta área se encuentra el Macizo Occidental de los Picos de Europa, el macizo más extenso, siendo Peña Santa con 2.596 metros la mayor altitud. En este macizo se sitúan <a href="lagosCovadonga.html" title="Los lagos de Covadonga">los lagos de Covadonga</a>, nombre que se le da al conjunto del lago Enol y el lago Ercina.</p>
+
+            <div><a href="#encabezado">Volver al inicio</a></div>
+            <p id="centro">
+                <a href="http://validator.w3.org/check?uri=referer">
+                    <img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88">
+                </a>
+            </p>
+        
+            </div>
+
+            
+            <div id="pie">
+                <br/><strong>Página realizada por: José Lozano</strong> para el módulo <strong class="class">Lenguaje de Marcas</strong>
+            </div>    
 
 
 
+        </div>
+        </center>
     </body>
 </html>
 
